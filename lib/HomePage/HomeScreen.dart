@@ -160,7 +160,9 @@ class Homescreen extends StatelessWidget {
                         decoration: BoxDecoration(
                           color: Colors.white,
                         ),
-                        child: TextField(),
+                        child: TextField(
+                          decoration: InputDecoration(),
+                        ),
                       ),
                     ),
                   ]),
