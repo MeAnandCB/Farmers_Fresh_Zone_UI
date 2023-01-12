@@ -161,7 +161,8 @@ class Homescreen extends StatelessWidget {
                           color: Colors.white,
                         ),
                         child: TextField(
-                          decoration: InputDecoration(),
+                          decoration: InputDecoration(
+                              hintText: 'Search for Vegitables, Fruits..'),
                         ),
                       ),
                     ),
