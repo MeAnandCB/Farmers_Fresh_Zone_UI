@@ -160,18 +160,7 @@ class Homescreen extends StatelessWidget {
                         decoration: BoxDecoration(
                           color: Colors.white,
                         ),
-                        child: TextField(
-                          style: TextStyle(fontSize: 15.0),
-                          decoration: InputDecoration(
-                            hintText: "Search products",
-                            border: InputBorder.none,
-                            suffixIcon: IconButton(
-                              onPressed: () {},
-                              icon: Icon(Icons.search),
-                              iconSize: 20,
-                            ),
-                          ),
-                        ),
+                        child: TextField(),
                       ),
                     ),
                   ]),
