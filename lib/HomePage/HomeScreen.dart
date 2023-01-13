@@ -162,6 +162,7 @@ class Homescreen extends StatelessWidget {
                         ),
                         child: TextField(
                           decoration: InputDecoration(
+                              prefixIcon: Icon(Icons.search),
                               hintText: 'Search for Vegitables, Fruits..'),
                         ),
                       ),
